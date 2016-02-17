@@ -3,8 +3,8 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "Id": 0, "NAME": "Chihuly Garden and Glass" }, "geometry": { "type": "Point", "coordinates": [ -126.86418413643243, 45.151885684267896 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "NAME": "The Museum of Flight" }, "geometry": { "type": "Point", "coordinates": [ -126.86418407723833, 45.151885533176937 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "NAME": "Washington State Ferries" }, "geometry": { "type": "Point", "coordinates": [ -126.86418408326068, 45.151885638633388 ] } }
+{ "type": "Feature", "properties": { "Id": 0, "NAME": "Chihuly Garden and Glass" }, "geometry": { "type": "Point", "coordinates": [ -122.35020702496399, 47.6205296 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "NAME": "The Museum of Flight" }, "geometry": { "type": "Point", "coordinates": [ -122.3394224, 47.5643754 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "NAME": "Washington State Ferries" }, "geometry": { "type": "Point", "coordinates": [ -122.3378717, 47.6028351 ] } }
 ]
 }
