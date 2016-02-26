@@ -1,0 +1,37 @@
+
+
+#test {
+  point-file:url(Data/map-pin.svg);
+  point-allow-overlap:true;
+  point-transform: "scale(.02)";
+  /*marker-width:6;
+  marker-fill:#ff8e98;
+  marker-line-color:#822f47;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;*/
+  [zoom < 8]{
+    point-file:url(Data/map-pin2.svg);
+    point-transform: "scale(.03)";
+  }
+  [zoom > 11]{
+    point-transform: "scale(.015)";
+  }
+  [zoom > 13]{
+    point-transform: "scale(.01)";
+  }
+}
+
+
+#cb2014usstate500k [zoom < 8] {
+  ::outline{
+    line-color: #36308a;
+  }
+  /*line-color:#594;*/
+  line-comp-op: color-dodge;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#8bb7ec;
+  [STUSPS = "WA"]{
+    polygon-fill: #97e9a0;
+  }
+}
