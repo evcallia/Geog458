@@ -10,4 +10,4 @@ http://students.washington.edu/evcallia//458-kylekuskus-evcallia-rachelroberts-f
 http://qilin.geog.uw.edu/omeka/neatline/show/superfund-sites
 
 4.	A link to commented Python code you used: scrapers, geoprocessing, etc.
-https://github.com/evcallia/Geog458/blob/master/Final%20Project/Scraper%20Code/scraper.ipynb
+https://github.com/evcallia/Geog458/blob/master/Final%20Project/ScraperCode.ipynb
